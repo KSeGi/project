@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(73, 68, 68);
+}
+#wrap{
+    width: 600px;
+    height: 900px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow:4px 4px 4px 4px #000000;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+img{
+    width: 220px;
+    display: block;
+    margin:0 auto;
+}
+span{
+    display: block;
+    margin-bottom: 10px;
+}
+.sign{
+    margin-bottom: 20px;
+}
+.required::after{
+    content: '*';
+    color: red;
+}
+form{
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    left: 150px;
+    top: -50px;
+}
+#main input{
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow:1px 1px 1px 1px #6b6b6b;
+}
+
+.btn{
+    padding:5px;
+    background-color: black;
+    color: rgb(205, 200, 200);
+    border-radius: 10px;
+}
+input[type=submit]{
+    margin:20px 70px 0 50px;
+}
+

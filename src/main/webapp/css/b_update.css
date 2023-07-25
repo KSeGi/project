@@ -1,0 +1,60 @@
+@charset "UTF-8";
+#wrap{
+	width:1200px;
+	margin:0 auto;
+}
+
+.file{
+	display:none;
+}
+img{
+	width:50px;
+	cursor: pointer;
+	padding:2px;
+	border:1px solid black;
+	border-radius:10px;
+	margin-bottom:50px;
+}
+.container{
+	display:inline-block;
+}
+.container img{
+	width:300px;
+	height:300px;
+	border:none;
+}
+
+select{
+	float:right;
+	padding:10px;
+	background-color:rgb(50,50,50);
+	color:white;
+}
+.title, .price{
+	width:1200px;
+	height:40px;
+	padding:5px;
+	border:none;
+	border-bottom:1px solid rgb(200,200,200);
+	margin-bottom:20px;
+}
+.text{
+	width:1200px;
+	height:500px;
+	border:3px solid rgb(200,200,200);
+	margin-bottom:30px;
+}
+
+input[type="submit"]{
+	float:right;
+	width:80px;
+	padding:10px;
+	margin-left:10px;
+	background-color:rgb(50,50,50);
+	color:white;
+	border-radius:10px;
+	font-size:15px;
+}
+input[type="submit"]:hover{
+	background-color:black;
+}

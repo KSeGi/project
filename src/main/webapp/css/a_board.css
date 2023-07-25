@@ -1,0 +1,101 @@
+
+@charset "UTF-8";
+
+#wrap{
+	width:1200px;
+	margin:0 auto;
+}
+#menu{
+	width:1100px;
+	height:40px;
+}
+.logo{
+	position:relative;
+	top:-60px;
+	width:150px;
+}
+.mainmenu > li{
+	border:none;
+	margin-top:20px;
+	margin-right:50px;
+}
+.mainmenu > li >a{
+	color:black;
+	font-weight:bold;
+	text-decoration: none;
+    width: 100px;
+}
+.mainmenu > li:hover > a:hover{
+	color: gray;
+}
+/*상단바 끝*/
+h1{
+	font-family:Tahoma;
+	margin:100px 0 0 50px;
+}
+
+ul{
+	list-style:none;
+	content:"";
+	display:block;
+	clear:both;
+}
+li{
+	float:left;
+	border-bottom:2px solid rgb(200,200,200);
+	text-align:center;
+	color:black;
+	padding:10px;
+}
+#t_boardlist li{
+	margin-top:20px;
+	background-color:rgb(50,50,50);
+	color: white;
+}
+
+.no{
+	width:50px;
+	
+}
+.title{
+	width:400px;
+	text-align:left;
+}
+.title:hover{
+	color:gray;
+}
+.nk{
+	width:100px;
+}
+.date{
+	width:200px;
+}
+.hit{
+	width:50px;
+}
+.page{
+	margin:50px 0 100px 300px;
+}
+.page li{
+	border:none;
+}
+.page a {
+	display:block;
+	margin:0 3px;
+	float:left;
+	border:1px solid #e6e6e6;
+	width:28px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	background-color:#fff;
+	font-size:13px;
+	color:#999999;
+	text-decoration:none;
+}
+
+.page a:hover, a:visited{ 
+ 	background-color:#42454c;
+	color:#fff;
+	border:1px solid #42454c;
+}

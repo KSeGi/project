@@ -1,0 +1,125 @@
+*{
+    list-style: none;
+    text-align:center;
+    text-decoration: none;
+    color:white;
+}
+#warp{
+    margin: 0 auto; 
+    width: 1200px;
+}
+header{
+	 background-color:black;
+}
+#box1{
+	margin-top:30px;
+    padding-top:20px;
+}
+.logo{
+	margin: 20px 0 0 20px;
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+.login{
+    float: right;
+}
+.SignUp{
+    width: 100px;
+    float: right;
+}
+.member{
+    width: 150px;
+    float: right;
+}
+#box1 a:hover{
+	padding :5px;
+	color:rgb(100,100,100);
+}
+
+
+/*검색창 부분 시작*/
+
+.search{
+    margin: 70px 200px 0 80px;
+}
+select{
+	background-color:black;
+}
+#b{
+    width: 600px;
+    height: 30px;
+    border-radius:10px;
+    text-align: left;
+    outline:none;
+    color:black;
+}
+#A{
+	position:relative;
+	left:-42px;
+	top:2px;
+	height:35px;
+	padding:5px;
+	color:white;
+	background-color:black;
+	border:2px solid rgb(100,100,100);
+	border-radius:10px;
+}
+#A:hover{
+	 opacity: 0.75;
+}
+
+
+/*메뉴창 부분 시작*/
+#menu{
+	margin:50px 0 120px 0;
+    height: 40px;
+    background-color:rgb(50,50,50);
+}
+.mainmenu > li{
+	text-decoration: none;
+	color:white;
+    width: 100px;
+    height: 40px;
+    float: left;
+    margin-left:100px;
+}
+
+.mainmenu > li >a{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+.mainmenu > li:hover > a:hover{
+	color: rgb(20,20,20);
+}
+
+
+
+/*header 부분 완료*/
+
+h1{
+	text-align:left;
+	width:1200px;
+	padding:5px;
+	border-bottom:3px solid rgb(50,50,50);
+	color:black;
+}
+.box3{
+    display: inline-block;
+}
+.box3 li{
+	margin:2px 55px 0 0;
+}
+img{
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.check, .name, .tags{
+	background-color:rgb(30,30,30);
+	border-radius:7px;
+	width: 300px;
+}
